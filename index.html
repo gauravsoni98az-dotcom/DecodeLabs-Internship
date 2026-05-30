@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | DecodeLabs Project 1</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER & NAVBAR -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+
+      <!-- Hamburger button (for mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm a Full Stack Developer</h1>
+        <p>I build responsive, accessible, and beautiful web experiences.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>I am an intern at DecodeLabs learning Full Stack Development. I love building clean
+        and user-friendly interfaces using HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <h3>Project One</h3>
+          <p>A responsive frontend interface built with HTML, CSS and JavaScript.</p>
+          <a href="#" class="btn">View Project</a>
+        </article>
+
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>A clean landing page with animations and mobile-first design.</p>
+          <a href="#" class="btn">View Project</a>
+        </article>
+
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>A blog layout using CSS Grid and semantic HTML5 elements.</p>
+          <a href="#" class="btn">View Project</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: gauravsoni98az@gmail.com</p>
+      <p>Phone: +91 6394897350</p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 MyPortfolio. Built for DecodeLabs Project 1.</p>
+  </footer>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
